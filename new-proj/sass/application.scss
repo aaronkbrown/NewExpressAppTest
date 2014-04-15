@@ -1,0 +1,30 @@
+@import 'bourbon';
+
+
+$color: purple;
+body {
+  background-color: $color;
+}
+h1, p {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+h1 {
+  font-size: 8em;
+  color: red;
+  -webkit-animation: blinking 0.2s step-end 0.2s infinite alternate;
+  animation: blinking 1s step-end 1s infinite alternate;
+}
+@-webkit-keyframes blinking {
+  0% {
+    color: red;
+  }
+  50% {
+    color: $color;
+  }
+}
+
+p {
+  font-size: 5em;
+  color: yellow;
+}

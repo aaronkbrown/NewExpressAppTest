@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: blue;
+}
+
+h1, p {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+h1 {
+  font-size: 8em;
+  color: red;
+}
+
+p {
+  color: yellow;
+  font-size: 5em;
+}
+
+a {
+  color: #00B7FF;
+}
